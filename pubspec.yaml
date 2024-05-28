@@ -4,15 +4,15 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: '>=3.3.3 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
-  photo_manager: ^2.1.4
-  dropdown_button2: ^1.7.2
+  photo_manager: ^3.1.1
+  dropdown_button2: ^2.3.9
   flutter:
     sdk: flutter
-  bottom_sheet: ^3.1.2
+  bottom_sheet: ^4.0.4
 
 dev_dependencies:
   flutter_test:
