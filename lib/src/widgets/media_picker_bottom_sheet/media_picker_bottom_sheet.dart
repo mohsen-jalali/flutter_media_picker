@@ -106,7 +106,7 @@ class _MediaPickerBottomSheetState extends State<MediaPickerBottomSheet> {
             children: [
               ModalHeader(
                 paths: [
-                  "all media",
+                  "All medias",
                   ...paths.map((e) => e.name).toList(),
                 ],
                 selectedDropDownItemIndex: selectedPathIndex,

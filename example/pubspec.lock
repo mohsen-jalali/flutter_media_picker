@@ -29,10 +29,10 @@ packages:
     dependency: transitive
     description:
       name: bottom_sheet
-      sha256: "7a3d4a1515eba91a7d9e1359e49416147de339889170fc879a8b905d27958c94"
+      sha256: efd28f52357d23e1c01eaeb45466b407f1e29318305bd6d10baf814fda18bd7e
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.2"
+    version: "4.0.4"
   camera:
     dependency: transitive
     description:

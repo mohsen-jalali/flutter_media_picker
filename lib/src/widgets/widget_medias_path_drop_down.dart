@@ -57,6 +57,13 @@ class MediaPickerDropDown extends StatelessWidget {
             ],
           ),
         ),
+        dropdownStyleData: DropdownStyleData(
+          maxHeight: 400,
+          decoration: BoxDecoration(
+            color: dropDownItemsBackgroundColor,
+            borderRadius: BorderRadius.circular(12),
+          )
+        ),
         decoration: InputDecoration(
           fillColor: dropDownButtonBackgroundColor,
           filled: dropDownButtonBackgroundColor != null ? true:false,
