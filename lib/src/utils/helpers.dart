@@ -1,5 +1,5 @@
-import 'package:gallery_saver/gallery_saver.dart';
+import 'package:gal/gal.dart';
 
 Future<void> saveImageInGallery(String imagePath) async {
-  await GallerySaver.saveImage(imagePath);
+  await Gal.putImage(imagePath);
 }

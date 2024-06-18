@@ -164,20 +164,7 @@ class _ImagePreviewPageState extends State<ImagePreviewPage> {
         ),
         WebUiSettings(
           context: context,
-          presentStyle: CropperPresentStyle.dialog,
-          boundary: CroppieBoundary(
-            width: (MediaQuery.of(context).size.width * .7).toInt(),
-            height: (MediaQuery.of(context).size.height * .6).toInt(),
-          ),
-          viewPort: CroppieViewPort(
-            width: (MediaQuery.of(context).size.width * .6).toInt(),
-            height: (MediaQuery.of(context).size.height * .5).toInt(),
-          ),
-          enableResize: true,
-          mouseWheelZoom: true,
-          enableExif: true,
-          enableZoom: true,
-          showZoomer: true,
+          presentStyle: WebPresentStyle.dialog,
         ),
       ],
     ).then((croppedFile) async {
